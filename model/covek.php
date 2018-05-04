@@ -109,7 +109,7 @@ class covek extends zivobice{
 
 
     function getResult(){
-        echo 'Prezime, Ime: ' . $this->getPrezime() . "<br>";
+        echo 'Prezime, Ime: ' . $this->getPrezime() . ", " . $this->getIme() . "<br>";
         echo 'Pol: ' . $this->getPol(). "<br>";
         echo 'Boja kose: ' . $this->getBoja_kose(). "<br>";
         echo 'Boja ociju: ' . $this->getBoja_ociju(). "<br>";
